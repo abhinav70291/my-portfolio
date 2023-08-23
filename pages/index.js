@@ -9,6 +9,7 @@ import { BsColumns, BsFillMoonStarsFill } from "react-icons/bs";
 import { useState, useEffect } from "react";
 import deved from "../public/dev-ed-wave.png";
 import code from "../public/code.png";
+import robot from "../public/robot.png"
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
 import Image from "next/image";
@@ -43,7 +44,7 @@ export default function Home() {
     <div className={darkMode ? "" : "dark"}>
       <Head>
         <title>Abhinav Anurag </title>
-        <meta name="viewport" content="width=900, initial-scale=1.0" />
+        <meta name="viewport" content="width=900" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
     
@@ -148,7 +149,7 @@ export default function Home() {
               and programming.
             </p> */}
           </div>
-          <div className="lg:flex md:flex flex:1 gap-5 mt-10 dark:text-white ">
+          <div className="lg:flex md:flex flex:1 gap-10 mt-10 dark:text-white ">
             <div data-aos="fade-right" className="text-center dark:shadow-teal-300 shadow-lg border-t-2 border-teal-300 ring-5 p-10 rounded-2xl my-10 dark:bg-opacity-60 dark:text-white flex-1">
               <Image src={design} width={100} height={100} alt="img2" />
               <h1 className="text-lg font-bold pt-8 pb-2 text-teal-300 ">
@@ -168,7 +169,7 @@ export default function Home() {
               </div>
             </div>
             <div data-aos="fade-up-right" className="text-center dark:shadow-teal-300 shadow-lg border-t-2 border-teal-300 ring-5 p-10 rounded-2xl my-10 dark:bg-opacity-60 dark:text-white flex-1">
-              <Image src={design} width={100} height={100} alt="img3" />
+              <Image src={robot} width={100} height={100} alt="img3" />
               <h1 className="text-lg font-bold pt-8 pb-2 text-teal-300 ">
                 ChatBots and LLMs
               </h1>
@@ -202,7 +203,7 @@ export default function Home() {
                 <p className="text-gray-800 py-1 dark:text-white">Framer-Motion</p>
               </div>
             </div>
-            <div data-aos="fade-left" className="text-center dark:shadow-teal-300 shadow-lg p-10 border-t-2 border-teal-300 rounded-2xl my-10 outline-white dark:bg-opacity-60 dark:text-white flex-1">
+            {/* <div data-aos="fade-left" className="text-center dark:shadow-teal-300 shadow-lg p-10 border-t-2 border-teal-300 rounded-2xl my-10 outline-white dark:bg-opacity-60 dark:text-white flex-1">
               <Image src={consulting} width={100} height={100} alt="img5" />
               <h1 className="text-lg font-bold pt-8 pb-2 text-teal-300 ">Consulting</h1>
               <p className="pb-0 pt-0 text-lg">
@@ -217,7 +218,7 @@ export default function Home() {
                 <p className="text-gray-800 py-1 dark:text-white">Microsoft Teams</p>
                 <p className="text-gray-800 py-1 dark:text-white">Slack</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
         <section className="py-10">
