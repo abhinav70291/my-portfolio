@@ -43,7 +43,7 @@ export default function Home() {
     <div className={darkMode ? "" : "dark"}>
       <Head>
         <title>Abhinav Anurag </title>
-        <meta name="viewport" content="width=1200" />
+        <meta name="viewport" content="width=900, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
     
