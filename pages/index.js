@@ -54,7 +54,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     
-      <main className="bg-white px-5 md:w-full md:mx-auto dark:bg-gradient-to-br dark:from-blue-900 dark:via-yellow-900 dark:to-purple-500 ">
+      <main className="bg-white px-5 md:w-full md:mx-auto dark:bg-gradient-to-br dark:from-blue-700 dark:via-yellow-900 dark:to-purple-500 ">
           <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
           <Hero />
           <Services />

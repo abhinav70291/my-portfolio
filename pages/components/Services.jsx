@@ -52,7 +52,7 @@ const Services = () => {
               <p className="py-2 text-basic text-lg">
                 Creating highly efficient LLM models and chatbots for your business and individual needs
               </p>
-              <div className="text-base pt-6 font-bold dark:text-white">
+              <div className="text-base pt-14 font-bold dark:text-white">
                 <h5 className="text-teal-300 pb-5 font-bold">AI Tools I Use</h5>
               
                 <p className="text-gray-800 py-1 dark:text-white ">Python</p>
@@ -70,7 +70,7 @@ const Services = () => {
                 Do you have an idea for your next great website? Let us make it a
                 reality.
               </p>
-              <div className="mt-14  text-base font-bold dark:text-white">
+              <div className="mt-20  text-base font-bold dark:text-white">
                 <h5 className="text-teal-300  pb-5 font-bold">Programming Tools I Use</h5>
               
                 <p className="text-gray-800 py-1  dark:text-white">Next JS</p>
