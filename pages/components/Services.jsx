@@ -25,15 +25,17 @@ const Services = () => {
           </div>
           <div className="lg:flex md:flex flex:1 gap-10 mt-10 dark:text-white ">
             <div data-aos="fade-right" className="text-center dark:shadow-teal-300 shadow-lg border-t-2 border-teal-300 ring-5 p-10 rounded-2xl my-10 dark:bg-opacity-60 dark:text-white flex-1">
-              <Image src={design} width={100} height={100} alt="img2" />
-              <h1 className="text-lg font-bold pt-8 pb-2 text-teal-300 ">
-                Beautiful Designs
-              </h1>
-              <p className="py-2 text-basic text-lg">
-                Creating elegant designs suited for your needs following core
-                design theory.
-              </p>
-              <div className="text-base font-bold pt-3 mt-10 dark:text-white">
+            
+                <Image src={design} width={100} height={100} alt="img2" />
+                <h1 className="text-lg font-bold pt-8 pb-2 text-teal-300 ">
+                    Beautiful Designs
+                </h1>
+                <p className="py-2 text-basic text-lg">
+                    Creating elegant designs suited for your needs following core
+                    design theory.
+                </p>
+        
+              <div className="text-base font-bold pt-8 mt-12 dark:text-white">
                 <h5 className="text-teal-300 pb-5 font-bold">Design Tools I Use</h5>
               
                 <p className="text-gray-800 py-1 dark:text-white ">Figma</p>
@@ -68,7 +70,7 @@ const Services = () => {
                 Do you have an idea for your next great website? Let us make it a
                 reality.
               </p>
-              <div className="mt-10  text-base font-bold dark:text-white">
+              <div className="mt-14  text-base font-bold dark:text-white">
                 <h5 className="text-teal-300  pb-5 font-bold">Programming Tools I Use</h5>
               
                 <p className="text-gray-800 py-1  dark:text-white">Next JS</p>

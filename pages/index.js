@@ -50,11 +50,11 @@ export default function Home() {
     <div className={darkMode ? "" : "dark"}>
       <Head>
         <title>Abhinav Anurag </title>
-        <meta name="viewport" content="width=900" />
+        <meta name="viewport" content="width=1100" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
     
-      <main className=" bg-white px-10 md:w-full md:mx-auto dark:bg-gradient-to-br dark:from-red-900 dark:via-blue-900 dark:to-yellow-700 md:px-10 lg:px-40">
+      <main className="bg-white px-5 md:w-full md:mx-auto dark:bg-gradient-to-br dark:from-blue-900 dark:via-yellow-900 dark:to-purple-500 ">
           <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
           <Hero />
           <Services />
